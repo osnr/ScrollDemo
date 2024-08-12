@@ -28,15 +28,29 @@ class Comm: ObservableObject {
         print("HELLO")
     }
     func connect() {
-        let url = URL(string: "ws://localhost:4273/ws")!
+        let url = URL(string: "ws://folk-live.local:4273/ws")!
         webSocketTask = URLSession.shared.webSocketTask(with: url)
 //        webSocketTask?.receive(completionHandler: onReceive)
         webSocketTask?.resume()
         
         // Send establishing programs
         self.send("""
-When the scroll offset y is /offsetY/ {
-  Wish to draw text with x 100 y 100 text $offsetY
+set phone 48700
+Claim tag $phone is a tag
+Claim tag $phone has geometry {tagSize 34.5mm top 52mm right 16mm left 16mm bottom 50mm}
+When tag $phone has quad /q0/ & $phone has quad /q/ {
+  # so the tag doesn't have to be visible to maintain the region:
+  Hold phone quad { Claim $phone has quad $q }
+  Wish $phone is outlined green
+}
+
+set im [image load "$::env(HOME)/folk-live/folk-images/out00.png"]
+When $phone has region /r/ & the scroll offset y is /offsetY/ {
+  lassign [region top [region move $r up [- ${offsetY}]px]] tx ty
+  Wish to draw an image with center [list $tx $ty] \
+    image $im radians [region angle $r] \
+    scale [/ [region width $r] [::image_t width $im]] \
+    crop [list 0. 0. 1.0 1.0]
 }
 """)
     }
