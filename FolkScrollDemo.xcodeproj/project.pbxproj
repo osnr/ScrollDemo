@@ -11,6 +11,7 @@
 		F069AD562C682B8C00A8B92F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069AD552C682B8C00A8B92F /* ContentView.swift */; };
 		F069AD582C682B8D00A8B92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F069AD572C682B8D00A8B92F /* Assets.xcassets */; };
 		F069AD5B2C682B8D00A8B92F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F069AD5A2C682B8D00A8B92F /* Preview Assets.xcassets */; };
+		F069AD642C685EC600A8B92F /* OffsetObservingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069AD632C685EC600A8B92F /* OffsetObservingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F069AD552C682B8C00A8B92F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F069AD572C682B8D00A8B92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F069AD5A2C682B8D00A8B92F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F069AD632C685EC600A8B92F /* OffsetObservingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetObservingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				F069AD552C682B8C00A8B92F /* ContentView.swift */,
 				F069AD572C682B8D00A8B92F /* Assets.xcassets */,
 				F069AD592C682B8D00A8B92F /* Preview Content */,
+				F069AD632C685EC600A8B92F /* OffsetObservingScrollView.swift */,
 			);
 			path = FolkScrollDemo;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F069AD642C685EC600A8B92F /* OffsetObservingScrollView.swift in Sources */,
 				F069AD562C682B8C00A8B92F /* ContentView.swift in Sources */,
 				F069AD542C682B8C00A8B92F /* FolkScrollDemoApp.swift in Sources */,
 			);

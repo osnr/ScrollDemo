@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @EnvironmentObject var comm: Comm
+    @State private var scrollOffset = CGPoint()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+        OffsetObservingScrollView(offset: $scrollOffset) {
+            Image("picsew")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(alignment: .topLeading)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+                .scrollTargetLayout()
+
+        }.onChange(of: scrollOffset, initial: true) { newValue, oldValue  in
+            comm.didScroll(scrollOffset: newValue)
         }
-        .padding()
     }
 }
 
