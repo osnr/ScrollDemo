@@ -3,4 +3,134 @@
    uuid = "6ECDF588-1BC0-47AC-83B5-C1E942BDA2E8"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58D26861-26BC-4B84-9C0F-33ED5C1A4006"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FolkScrollDemo/FolkScrollDemoApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "hold(key:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "412778E8-DAED-4B75-A9EC-5E7537E55FA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FolkScrollDemo/FolkScrollDemoApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "hold(key:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "412778E8-DAED-4B75-A9EC-5E7537E55FA1 - 88d618eabf488767"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FolkScrollDemo.Comm.hold(key: Swift.String, _: Swift.String) -&gt; ()"
+                  moduleName = "FolkScrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osnr/Code/FolkScrollDemo/FolkScrollDemo/FolkScrollDemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "412778E8-DAED-4B75-A9EC-5E7537E55FA1 - e582f8ad11b52af4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FolkScrollDemo.Comm.hold(key: Swift.String, _: Swift.String) -&gt; ()"
+                  moduleName = "FolkScrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osnr/Code/FolkScrollDemo/FolkScrollDemo/FolkScrollDemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B02FE648-049F-4C92-90B1-F74EE0FC71B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FolkScrollDemo/FolkScrollDemoApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "hold(key:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B02FE648-049F-4C92-90B1-F74EE0FC71B8 - abb68d657cace3eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FolkScrollDemo.Comm.didScroll(scrollOffset: __C.CGPoint) -&gt; ()"
+                  moduleName = "FolkScrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osnr/Code/FolkScrollDemo/FolkScrollDemo/FolkScrollDemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "B02FE648-049F-4C92-90B1-F74EE0FC71B8 - abb68d657cace3eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FolkScrollDemo.Comm.didScroll(scrollOffset: __C.CGPoint) -&gt; ()"
+                  moduleName = "FolkScrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osnr/Code/FolkScrollDemo/FolkScrollDemo/FolkScrollDemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "510A2116-8380-4367-86EA-B99F33D80B92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FolkScrollDemo/FolkScrollDemoApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "webSocketTask"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
