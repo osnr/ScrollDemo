@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  FolkScrollDemo
+//  ScrollDemo
 //
 //  Created by Omar Rizwan on 8/10/24.
 //

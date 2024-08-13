@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F069AD542C682B8C00A8B92F /* FolkScrollDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069AD532C682B8C00A8B92F /* FolkScrollDemoApp.swift */; };
+		F069AD542C682B8C00A8B92F /* ScrollDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069AD532C682B8C00A8B92F /* ScrollDemoApp.swift */; };
 		F069AD562C682B8C00A8B92F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069AD552C682B8C00A8B92F /* ContentView.swift */; };
 		F069AD582C682B8D00A8B92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F069AD572C682B8D00A8B92F /* Assets.xcassets */; };
 		F069AD5B2C682B8D00A8B92F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F069AD5A2C682B8D00A8B92F /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F069AD502C682B8C00A8B92F /* FolkScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F069AD532C682B8C00A8B92F /* FolkScrollDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolkScrollDemoApp.swift; sourceTree = "<group>"; };
+		F069AD502C682B8C00A8B92F /* ScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F069AD532C682B8C00A8B92F /* ScrollDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDemoApp.swift; sourceTree = "<group>"; };
 		F069AD552C682B8C00A8B92F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F069AD572C682B8D00A8B92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F069AD5A2C682B8D00A8B92F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		F069AD472C682B8C00A8B92F = {
 			isa = PBXGroup;
 			children = (
-				F069AD522C682B8C00A8B92F /* FolkScrollDemo */,
+				F069AD522C682B8C00A8B92F /* ScrollDemo */,
 				F069AD512C682B8C00A8B92F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,21 +45,21 @@
 		F069AD512C682B8C00A8B92F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F069AD502C682B8C00A8B92F /* FolkScrollDemo.app */,
+				F069AD502C682B8C00A8B92F /* ScrollDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F069AD522C682B8C00A8B92F /* FolkScrollDemo */ = {
+		F069AD522C682B8C00A8B92F /* ScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F069AD532C682B8C00A8B92F /* FolkScrollDemoApp.swift */,
+				F069AD532C682B8C00A8B92F /* ScrollDemoApp.swift */,
 				F069AD552C682B8C00A8B92F /* ContentView.swift */,
 				F069AD572C682B8D00A8B92F /* Assets.xcassets */,
 				F069AD592C682B8D00A8B92F /* Preview Content */,
 				F069AD632C685EC600A8B92F /* OffsetObservingScrollView.swift */,
 			);
-			path = FolkScrollDemo;
+			path = ScrollDemo;
 			sourceTree = "<group>";
 		};
 		F069AD592C682B8D00A8B92F /* Preview Content */ = {
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F069AD4F2C682B8C00A8B92F /* FolkScrollDemo */ = {
+		F069AD4F2C682B8C00A8B92F /* ScrollDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F069AD5E2C682B8D00A8B92F /* Build configuration list for PBXNativeTarget "FolkScrollDemo" */;
+			buildConfigurationList = F069AD5E2C682B8D00A8B92F /* Build configuration list for PBXNativeTarget "ScrollDemo" */;
 			buildPhases = (
 				F069AD4C2C682B8C00A8B92F /* Sources */,
 				F069AD4D2C682B8C00A8B92F /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = FolkScrollDemo;
-			productName = FolkScrollDemo;
-			productReference = F069AD502C682B8C00A8B92F /* FolkScrollDemo.app */;
+			name = ScrollDemo;
+			productName = ScrollDemo;
+			productReference = F069AD502C682B8C00A8B92F /* ScrollDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F069AD4F2C682B8C00A8B92F /* FolkScrollDemo */,
+				F069AD4F2C682B8C00A8B92F /* ScrollDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +142,7 @@
 			files = (
 				F069AD642C685EC600A8B92F /* OffsetObservingScrollView.swift in Sources */,
 				F069AD562C682B8C00A8B92F /* ContentView.swift in Sources */,
-				F069AD542C682B8C00A8B92F /* FolkScrollDemoApp.swift in Sources */,
+				F069AD542C682B8C00A8B92F /* ScrollDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FolkScrollDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 75YA78K5AM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rsnous.FolkScrollDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsnous.ScrollDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FolkScrollDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 75YA78K5AM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rsnous.FolkScrollDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsnous.ScrollDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F069AD5E2C682B8D00A8B92F /* Build configuration list for PBXNativeTarget "FolkScrollDemo" */ = {
+		F069AD5E2C682B8D00A8B92F /* Build configuration list for PBXNativeTarget "ScrollDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F069AD5F2C682B8D00A8B92F /* Debug */,

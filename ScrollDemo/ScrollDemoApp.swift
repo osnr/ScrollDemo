@@ -1,6 +1,6 @@
 //
-//  FolkScrollDemoApp.swift
-//  FolkScrollDemo
+//  ScrollDemoApp.swift
+//  ScrollDemo
 //
 //  Created by Omar Rizwan on 8/10/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct FolkScrollDemoApp: App {
+struct ScrollDemoApp: App {
     @StateObject private var comm = Comm()
     var body: some Scene {
         WindowGroup {
