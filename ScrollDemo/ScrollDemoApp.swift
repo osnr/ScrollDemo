@@ -36,6 +36,8 @@ class Comm: ObservableObject {
         // Send establishing programs
         self.send("""
 set phone 48700
+Claim tag $phone is a tag
+Claim tag $phone has geometry {tagSize 34.5mm top 52mm right 16mm left 16mm bottom 50mm}
 When tag $phone has quad /q0/ & $phone has quad /q/ {
   # so the tag doesn't have to be visible to maintain the region:
   Hold phone quad { Claim $phone has quad $q }
